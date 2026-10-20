@@ -62,3 +62,4 @@ footer{border-top:1px solid var(--line);padding:34px 0}.foot{display:flex;flex-w
 .emblem{width:84px;height:84px;border-radius:0;object-fit:contain;box-shadow:none;margin-bottom:22px;filter:drop-shadow(0 0 22px rgba(255,95,168,.55))}
 .coin{width:280px;height:280px;border-radius:0;object-fit:contain;box-shadow:none;filter:drop-shadow(0 0 40px rgba(255,95,168,.5)) drop-shadow(0 20px 60px rgba(245,192,106,.2))}
 @media(max-width:1000px){.coin{width:210px;height:210px}}
+.ch-img[style*="9 / 16"]{max-width:405px;justify-self:center;width:100%}.ch-img[style*="3 / 4"]{max-width:520px;justify-self:center;width:100%}
