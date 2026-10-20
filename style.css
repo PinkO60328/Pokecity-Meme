@@ -54,3 +54,10 @@ code{font:500 14px ui-monospace,monospace;word-break:break-all}.copy{background:
 @media(prefers-reduced-motion:reduce){.grain,.key img,.dot{animation:none}.reveal{opacity:1;transform:none;transition:none}}
 @media(max-width:1000px){.eps{grid-template-columns:1fr 1fr}.qgrid{grid-template-columns:1fr 1fr}.story{grid-template-columns:1fr;gap:34px}}
 @media(max-width:700px){nav,nav.solid{padding:14px 20px}.links{display:none}.wrap{padding:0 20px}.hero-copy{padding:0 20px 13vh}.rating{display:none}.eps,.cast,.qgrid{grid-template-columns:1fr}.hero::after{background:linear-gradient(0deg,var(--bg) 8%,rgba(7,6,11,.55) 55%,rgba(7,6,11,.2))}.quotes{padding:60px 20px}section{padding:70px 0}}
+
+.brand{display:flex;align-items:center;gap:12px}
+.logo-sm{width:36px;height:36px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 1px rgba(255,255,255,.25),0 0 16px rgba(255,63,164,.35)}
+.emblem{width:64px;height:64px;border-radius:50%;overflow:hidden;margin-bottom:18px;box-shadow:0 0 0 1px rgba(255,255,255,.3),0 0 30px rgba(255,63,164,.4)}.emblem img{width:100%;height:100%;object-fit:cover}
+.token-id{display:flex;align-items:center;gap:28px}
+.logo-lg{width:120px;height:120px;flex:none;border-radius:50%;object-fit:cover;box-shadow:0 0 0 1px rgba(255,255,255,.2),0 0 40px rgba(255,63,164,.35),0 0 80px rgba(138,92,255,.25)}
+@media(max-width:700px){.token-id{gap:18px}.logo-lg{width:84px;height:84px}.emblem{width:52px;height:52px}}
